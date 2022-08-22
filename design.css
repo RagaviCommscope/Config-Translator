@@ -1,0 +1,16 @@
+#tab{
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+#th{
+    height: 70px;
+}
+table{
+    text-align: center;
+    border-radius: 1.5em;
+    overflow: hidden;
+    box-shadow:rgba(124, 122, 122, 0.847) 0px 5px 20px 1px;
+    font-family: serif;
+}
