@@ -1,0 +1,33 @@
+textarea{
+    border: 3px solid black !important;
+    border-radius: 2.5rem 0rem 2.5rem 0rem !important;
+    padding: 15px !important;
+}
+label{
+    font-size: 18px;
+}
+
+.btn{
+    border: 1px solid black !important;
+    background-color: white;
+}
+
+.btn:hover{
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(200deg,rgb(96, 95, 95), rgb(243, 131, 4), rgb(243, 131, 4), rgb(96, 95, 95));
+}
+
+.btn-div{
+    width: max-content;
+    padding: 2px;
+    border: 1px solid black !important;
+    border-radius: 5px;
+    background: linear-gradient(200deg,rgb(96, 95, 95), rgb(243, 131, 4), rgb(243, 131, 4), rgb(96, 95, 95));
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

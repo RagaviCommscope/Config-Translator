@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<div class="container">
+    {% for id in dump %}
+        <div class="col d-block">
+            <div class="row m-5 bg-success">
+                <pre>{{id}}</pre>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

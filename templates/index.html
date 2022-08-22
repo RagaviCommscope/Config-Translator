@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Config Translator</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/static/images/ruckus-favicon.jpg" type="image/x-icon">
+
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- external css link  -->
+    <link rel="stylesheet" href="/static/style/indexStyle.css">
+    <link rel="stylesheet" href="/static/style/formStyle.css">
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+    <img class="img-fluid" src="/static/images/ruckus-logo (2).png" alt="RUCKUS - Logo">
+    <br />
+    <h1 class="h1 text-center">
+        Config - Translator
+    </h1>
+    <h4 class="h4 text-center">
+        For Ruckus Systems Engineering Team
+    </h4>
+    <br />
+    
+    {% block content %}
+
+    {% endblock %}
+
+    <script src="/static/js/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'static/js/particles.json', function () {
+            console.log('particles.js config loaded');
+        });
+    </script>
+</body>
+
+</html>

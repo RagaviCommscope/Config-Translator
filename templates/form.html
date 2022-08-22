@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+
+{% block content %}
+<div class="container-fluid">
+    <form action="res" method="POST">
+        {% csrf_token %}
+
+        <div class="form-group">
+            <label for="dumpArea" class="mb-2">Paste the Dump File Here</label>
+            <textarea class="shadow form-control" id="dumpArea" name="dump" cols="60" rows="15"
+                placeholder="Just paste the content of the WLAN dump file content"></textarea>
+        </div>
+        <!-- <input type="file" name="file" id="">
+    <input type="text" name="demo" id=""> -->
+        <div id="center">
+            <div class="shadow mt-3 mb-4 btn-div">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
