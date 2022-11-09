@@ -1,0 +1,17 @@
+NAME = Ruckus-Wireless-1
+      Tx. Rate of Management Frame(2.4GHz) = 2.0Mbps
+      Tx. Rate of Management Frame(5GHz)   = 6.0Mbps
+      Beacon Interval = 100ms
+      SSID = Ruckus-Wireless-1
+      Description = Ruckus-Wireless-1
+      Type = Standard Usage
+      Authentication = open
+      Encryption = wpa2
+      Algorithm = aes
+      Passphrase = ruckus2021
+      FT Roaming = Disabled
+      802.11k Neighbor report = Disabled
+      Web Authentication = Disabled
+      Authentication Server = Disabled
+      Accounting Server = Disabled
+      Called-Station-Id type = wlan-bssid
